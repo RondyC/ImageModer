@@ -1,4 +1,4 @@
-# FastAPI Image Moderation via DeepAI
+# FastAPI Image Moderation by DeepAI
 
 ## Эндпоинт
 `POST /moderate`  
