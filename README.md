@@ -1,4 +1,4 @@
-# FastAPI Image Moderation via DeepAI
+# FastAPI Image Moderation (DeepAI)
 
 ## Эндпоинт
 `POST /moderate`  
@@ -9,13 +9,14 @@
 - `{"status": "OK"}` — безопасно
 - `{"status": "REJECTED", "reason": "NSFW content"}` — неприемлемый контент
 
-# Проверка
+## Подготовка
+Перед использованием вписать ключ!
 
-## Установка
+### Установка
 pip install -r requirements.txt
 
-## Запуск 
+### Запуск 
 uvicorn main:app --reload
 
-## Интерфейс
+### Интерфейс
 http://localhost:8000/docs
